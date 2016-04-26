@@ -1,0 +1,100 @@
+body {
+	background-image:url("wallpaper2.jpg");
+	background-repeat: repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	background-attachment: fixed;
+	cursor:url('rock.cur'), default;
+}
+
+#main {
+	width: 60%;
+	margin: auto;
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid #2989D8;
+	background-image: url("wallpaper1.png");
+	background-size: 120px;
+	background-repeat: repeat;
+	box-shadow: 3px 2px 5px 0px rgba(87,100,166,1);
+}
+        
+h1 {
+	font-size: 3em;
+	margin: 0 0 5px 0;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 8px #49A9F8;
+}
+
+h1:hover {
+	color: #49A9F8;
+	text-shadow: 2px 2px 8px white;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 0 0 5px 0;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+#menu {
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	list-style-type: none;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	width: 28%;
+	margin-left: 4%;
+}
+
+#menu li a {
+	display: block;
+	height: 60px;
+	border-radius: 5px;
+	text-align: center;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center;
+	padding: 2px;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+	background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%);
+}
+
+#menu li a:hover {
+	background-image:url("button.jpg");
+	background-size: 100% 100%;
+	color: white;
+}
+
+#topHeader {
+	text-decoration: none;
+}
+
+#text {
+	margin-top:10px;
+	border: 1px solid #2989D8;
+	border-radius: 10px;
+	padding: 0 5px;
+	background-color: #ffffff;
+	min-height: 400px;
+}
+
+#notebook li {
+	padding-top:10px;
+}
+
+#goat {
+	position: fixed;
+	top: 40px;
+	left: 10px;
+}
